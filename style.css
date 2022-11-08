@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 /*
@@ -57,4 +58,10 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.scrolling {
+  background: black;
+  opacity: 90%;
+  transition: 1s;
 }
